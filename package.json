@@ -10,12 +10,14 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.19",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:mobile": "react-scripts test --env=jsdom --testMatch \"**/*.mobile.test.js\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
